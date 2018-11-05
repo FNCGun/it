@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register a new account</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/login.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	
+</style>
+<body>
+	<div class="container-fluid bg">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<form action="register.php" class="form-container" style="padding: 5px; margin-top: 10vh" method="post">
+					<h1>Sign Up</h1>
+				  <div class="form-group">
+				    <label for="username">Username</label>
+				    <input type="text" class="form-control" name="username" id="username" placeholder="username">
+				  </div>
+				  <div class="form-group">
+				    <label for="password">Password</label>
+				    <input type="password" class="form-control" name="password" id="password" placeholder="password">
+				  </div>
+				  <div class="form-group">
+				    <label for="telenom">Tel Nom</label>
+				    <input type="number" class="form-control" name="telenom" id="telenom" placeholder="telenom">
+				  </div>
+				  <div class="form-group">
+				    <label for="address">Address</label>
+				    <input type="text" class="form-control" name="address" id="address" placeholder="address">
+				  </div>
+				  <div class="form-group">
+				    <label for="email">Email</label>
+				    <input type="email" class="form-control" name="email" id="email" placeholder="email">
+				  </div>
+				  <input type="submit" value="Sign Up" name="signup" class="btn btn-success btn-block">
+				  <br>
+				  <a href = 'login.php'> Already Registered? </a> <br>
+				</form>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12"></div>
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>
